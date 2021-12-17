@@ -87,8 +87,9 @@ namespace LAB6.Tests
             await _browser.DisposeAsync();
         }
 
-        //*
+        /*
         // I commented this test to let Github Workflow end successfully
+        // And also adding this to make test commit
         [Test]
         public async Task AlwaysFailingTest()
         {
@@ -102,7 +103,7 @@ namespace LAB6.Tests
             //assert
             _page.Url.Should().Be(fakeUrl);
         }
-        //*/
+        */
 
         [Test]
         public async Task SignUp_Successful()
